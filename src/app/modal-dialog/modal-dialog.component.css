@@ -1,0 +1,10 @@
+[mat-dialog-actions]{
+  display: flex;
+  justify-content: space-evenly;
+}
+[mat-dialog-content]{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: .5rem 0 0 .5rem;
+}

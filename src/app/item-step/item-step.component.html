@@ -1,0 +1,11 @@
+<div  class="container">
+
+
+  <p [ngClass]="{'disabled': disabled, 'completed':completed}">
+    {{count+1}}. &emsp; {{step}}
+  </p>
+
+  <mat-checkbox [disabled]="disabled" (change)="onChange($event.checked)"></mat-checkbox>
+
+</div>
+<mat-divider></mat-divider>

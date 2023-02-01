@@ -1,0 +1,10 @@
+<div mat-dialog-content>
+  <p>Next Step:</p>
+  <mat-form-field>
+    <input #input matInput ngModel>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="input.value">Submit</button>
+</div>

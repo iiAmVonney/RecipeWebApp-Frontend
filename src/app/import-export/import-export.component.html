@@ -1,0 +1,15 @@
+<div class="container">
+
+  <div class="left">
+    <button (click)="ImportCsv()" mat-raised-button >Import</button>
+    <input id="picker" type="file" class="upload" (change)="fileChanged($event)">
+  </div>
+
+  <div class="right">
+    <button (click)="ExportCsv()" mat-raised-button>Export</button>
+  </div>
+
+
+</div>
+
+
